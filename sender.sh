@@ -19,7 +19,7 @@ do
 	# then
 	# 	COUNT=$((COUNT + 1))
 	# fi
-	# sleep 10
+	sleep 60
 	sync
 done
 if [ $COUNT -gt 0 ]
