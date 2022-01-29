@@ -28,7 +28,7 @@ then
 	zabbix_sender -z 127.0.0.1 -p 10051 -s "digilife" -k log -o 'login successful'
 else
 	zabbix_sender -z 127.0.0.1 -p 10051 -s "digilife" -k time -o $TIME
-	zabbix_sender -z 127.0.0.1 -p 10051 -s "digilife" -k log -o 'login successful'
+	zabbix_sender -z 127.0.0.1 -p 10051 -s "digilife" -k log -o 'login unsuccessful'
 fi
 rm tmp.txt
 # ./digilife.sh > tmp.txt

@@ -1,0 +1,8 @@
+
+> webdriverio-tests@0.1.0 wdio
+> wdio run wdio.conf.js
+
+
+Execution of 1 workers started at 2022-01-29T11:06:54.066Z
+
+[0-0] RUNNING in chrome - /test/specs/example.e2e.js
