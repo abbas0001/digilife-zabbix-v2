@@ -3,6 +3,8 @@
 > wdio run wdio.conf.js
 
 
-Execution of 1 workers started at 2022-01-29T11:06:54.066Z
+Execution of 1 workers started at 2022-02-19T09:09:16.129Z
 
-[0-0] RUNNING in chrome - /test/specs/example.e2e.js
+
+
+Ended WebDriver sessions gracefully after a SIGINT signal was received!

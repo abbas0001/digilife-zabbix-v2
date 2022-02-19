@@ -1,11 +1,11 @@
 #!/bin/bash
 
 COUNT=0
-TIME=""
-for i in $(seq 1 6)
+TIME=0
+for i in $(seq 1 10)
 do
 	echo "============="
-	echo "STAGE $i OF 6"
+	echo "STAGE $i OF 10"
 	echo "============="
 	./digilife.sh > tmp.txt
 	grep '1 passing' tmp.txt
@@ -19,7 +19,6 @@ do
 	# then
 	# 	COUNT=$((COUNT + 1))
 	# fi
-	sleep 60
 	sync
 done
 if [ $COUNT -gt 0 ]

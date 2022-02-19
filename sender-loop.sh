@@ -3,6 +3,7 @@
 while true
 do
 	./sender.sh
-	sleep 20
+	pkill chrome
 	sync
+	sleep 300
 done
